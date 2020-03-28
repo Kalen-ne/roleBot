@@ -5,6 +5,10 @@ TOKEN = DISCORD_BOT_TOKEN
 client = discord.Client()
 
 client.event
+async def on_ready():
+    print('login')
+
+client.event
 async def on_message(message):
     if message.content.statswith('!kingariempire'):
         role = discord.utils.get(message.guild.roles, name= '国民')
