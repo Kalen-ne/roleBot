@@ -1,6 +1,6 @@
 import discord
 
-TOKEN = 'DISCORD_BOT_TOKEN'
+TOKEN = ' DISCORD_BOT_TOKEN '
 
 client = discord.Client()
 
