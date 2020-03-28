@@ -1,6 +1,6 @@
 import discord
 
-TOKEN = 'DISCORD_BOT_TOKEN'
+TOKEN = 'NjYzMjE5MjIxNzQ0MDU4MzY5.Xn8X0A.zSuHZ2T8-NDclqGg3L_XKBxlUwg'
 
 client = discord.Client()
 
@@ -12,4 +12,4 @@ async def on_message(message):
         reply = f'{message.author.mention} ようこそ！'
         await message.channel.send(reply)
 
-client.run(DISCORD_BOT_TOKEN)
+client.run(NjYzMjE5MjIxNzQ0MDU4MzY5.Xn8X0A.zSuHZ2T8-NDclqGg3L_XKBxlUwg)
